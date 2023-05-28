@@ -1,0 +1,35 @@
+/* .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+} */
+
+.main{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  scroll-behavior: smooth;
+ 
+}
+
+/* Scrollbar modification*/
+/* ::-moz-scrollbar {
+  width: 15px;
+}
+
+::-moz-scrollbar-thumb {
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip:padding-box;
+  border-radius: 9999px;
+  background-color: #AAAAAA;
+}
+::-moz-scrollbar-thumb:hover {
+  border: 4px solid rgba(0, 0, 0, 0);
+  /* background-clip: padding-box; */
+
+  /* border-radius: 9999px;
+  /*change the color of scrollbar
+   background-color: rgb(77, 77, 77);
+} */
+
