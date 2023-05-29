@@ -3,10 +3,10 @@ import React from 'react'
 
 const BodyCard = () => {
   return (
-  <Card isHoverable  css={{ w: "100%", h: "500px"}}>
+  <Card isPressable isHoverable  css={{ w: "100%", h: "500px"}}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
-        <Text size={14} weight="bold" transform="uppercase" color="#7828C8"  >
+        <Text size={14} weight="bold" transform="uppercase" color="warning"  >
           New
         </Text>
         <Text h3 color="secondary">
