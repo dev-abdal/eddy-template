@@ -2,7 +2,6 @@ import React from 'react'
 import { Grid,Button,Link,Text } from '@nextui-org/react'
 import BodyCard from './mainBodyCard'
 
-
 const MenCard = () => {
   return (
     <>
@@ -42,7 +41,7 @@ const MenCard = () => {
     </Grid>
     {/* <Grid xs={11} sm={4} md={3} lg={3} xl={3} justify='center' alignItems='center'> */}
     <Link href='#'>
-    <Text color='secondary' weight='bold'  css={{backgroundColor:'#EADCF8', p:7, borderRadius:5, letterSpacing:2}}>
+    <Text color='secondary' weight='bold'  css={{backgroundColor:'#EADCF8', p:7, borderRadius:5, letterSpacing:2, boxShadow:"$md"}}>
      View All →
      </Text>
     </Link>

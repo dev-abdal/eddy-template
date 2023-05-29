@@ -47,7 +47,7 @@ import BodyCard from './mainBodyCard'
     </Grid>
     {/* <Grid xs={1} sm={} md={2} lg={2} xl={2} justify='center' alignItems='center'> */}
     <Link href='#'>
-    <Text color='secondary' weight='bold'  css={{backgroundColor:'#EADCF8', p:7, borderRadius:5, letterSpacing:2}}>
+    <Text color='secondary' weight='bold'  css={{backgroundColor:'#EADCF8', p:7, borderRadius:5, letterSpacing:2, boxShadow:"$md"}}>
      View All →
      </Text>
   </Link>
