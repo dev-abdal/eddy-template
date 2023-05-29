@@ -3,10 +3,12 @@ import React from 'react'
 
 const CardTwo = () => {
   return (
-  <Card  isPressable isHoverable css={{ w: "100%", h: "500px" }}>
+  <Card  isPressable  css={{ w: "100%", h: "500px"}}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
-        <Text size={12} weight="bold" transform="uppercase" color="warning">
+        <Text size={12} weight="bold" transform="uppercase" color="warning"
+        css={{letterSpacing:2 }}
+        >
           New
         </Text>
         <Text h3 color="secondary">
