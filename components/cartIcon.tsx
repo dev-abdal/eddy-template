@@ -3,11 +3,11 @@ import Image from 'next/image'
 import cart from '../public/cart.svg'
 const CartIcon = () => {
   return (
-      <Image
-             priority
-              src={cart}
-             /> 
-  )
+       <Image
+       src={cart}
+       alt='cart'
+       />
+    )
 }
 
 export default CartIcon

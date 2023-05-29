@@ -1,4 +1,4 @@
-export const SearchIcon = ({size, fill, width = 24, height = 24, ...props}) => {
+export const SearchIcon = ({size, fill, width = 24, height = 24, ...props}:any) => {
   return (
     <svg fill="none" height={size || height} viewBox="0 0 24 24" width={size || width} {...props}>
       <path
