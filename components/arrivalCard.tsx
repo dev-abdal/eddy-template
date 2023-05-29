@@ -42,13 +42,16 @@ import BodyCard from './mainBodyCard'
     <Grid xs={11} sm={4} md={3} lg={3} xl={3}>
         < BodyCard/>
     </Grid>
-    <Grid xs={11} sm={4} md={3} lg={3} xl={3} justify='center' alignItems='center'>
+    <Grid xs={11} sm={4} md={3} lg={3} xl={3}>
+        < BodyCard/>
+    </Grid>
+    {/* <Grid xs={1} sm={} md={2} lg={2} xl={2} justify='center' alignItems='center'> */}
     <Link href='#'>
     <Text color='secondary' weight='bold'  css={{backgroundColor:'#EADCF8', p:7, borderRadius:5, letterSpacing:2}}>
      View All →
      </Text>
   </Link>
-    </Grid>
+   {/* </Grid> */}
   </Grid.Container>
   </>
   )

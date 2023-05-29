@@ -6,7 +6,7 @@ const BodyCard = () => {
   <Card isHoverable  css={{ w: "100%", h: "500px"}}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
-        <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
+        <Text size={14} weight="bold" transform="uppercase" color="#7828C8"  >
           New
         </Text>
         <Text h3 color="secondary">
@@ -35,7 +35,7 @@ const BodyCard = () => {
     >
       <Row>
         <Col>
-          <Text b color="#00000" size={16}>
+          <Text b color="#00000" size={24}>
            $14.99
           </Text>
           <Text color="#00000" size={13}  >
@@ -51,7 +51,7 @@ const BodyCard = () => {
                 weight="bold"
                 transform="uppercase"
               >
-                Buy Now
+               Add to Cart
               </Text>
             </Button>
           </Row>

@@ -22,7 +22,7 @@ const AppBar = () => {
   return ( 
   <>
       <Navbar  variant="floating"  >
-        <Navbar.Toggle showIn="xs" />
+        <Navbar.Toggle showIn={"xs" && "sm"} />
         <Navbar.Brand 
           css={{
             "@xs": {
@@ -31,7 +31,7 @@ const AppBar = () => {
           }}
         >
           <Link href="/">
-           <Text b color="secondary" hideIn={'xs'}>
+           <Text b color="secondary" size={25} hideIn={'xs'}>
             EDDY
            </Text>
           </Link>
@@ -39,20 +39,20 @@ const AppBar = () => {
         <Navbar.Content
           enableCursorHighlight
           activeColor="secondary"
-          hideIn="xs"
+          hideIn={"xs" && "sm"}
           variant="highlight"
         > 
-         <Dropdown placement="bottom">
+         <Dropdown placement="bottom" >
           <Navbar.Item >
             <Dropdown.Trigger>
              <Button light auto >Women</Button>
             </Dropdown.Trigger>
             </Navbar.Item>
             <Dropdown.Menu
-             aria-label="EDDY Women"
+             aria-label="women"
              css={{
               $$dropdownMenuWidth: "340px",
-              $$dropdownItemHeight: "70px",
+              $$dropdownItemHeight: "40px",
               "& .nextui-dropdown-item": {
                 py: "$4",
               // dropdown item title
@@ -95,10 +95,10 @@ const AppBar = () => {
             </Dropdown.Trigger>
             </Navbar.Item>
             <Dropdown.Menu
-             aria-label="EDDY Men"
+             aria-label="men"
              css={{
               $$dropdownMenuWidth: "340px",
-              $$dropdownItemHeight: "70px",
+              $$dropdownItemHeight: "40px",
               "& .nextui-dropdown-item": {
                 py: "$4",
               // dropdown item title
@@ -169,10 +169,10 @@ const AppBar = () => {
             </Dropdown.Trigger>
             </Navbar.Item>
             <Dropdown.Menu
-             aria-label="EDDY Boys"
+             aria-label="boys"
              css={{
               $$dropdownMenuWidth: "340px",
-              $$dropdownItemHeight: "70px",
+              $$dropdownItemHeight: "40px",
               "& .nextui-dropdown-item": {
                 py: "$4",
               // dropdown item title
@@ -234,10 +234,10 @@ const AppBar = () => {
             </Dropdown.Trigger>
             </Navbar.Item>
             <Dropdown.Menu
-             aria-label="EDDY Girls"
+             aria-label="girls"
              css={{
               $$dropdownMenuWidth: "340px",
-              $$dropdownItemHeight: "70px",
+              $$dropdownItemHeight: "40px",
               "& .nextui-dropdown-item": {
                 py: "$4",
               // dropdown item title
@@ -305,10 +305,10 @@ const AppBar = () => {
             </Dropdown.Trigger>
             </Navbar.Item>
             <Dropdown.Menu
-             aria-label="EDDY Girls"
+             aria-label="frangrance"
              css={{
               $$dropdownMenuWidth: "340px",
-              $$dropdownItemHeight: "70px",
+              $$dropdownItemHeight: "40px",
               "& .nextui-dropdown-item": {
                 py: "$4",
               // dropdown item title
@@ -354,10 +354,10 @@ const AppBar = () => {
             </Dropdown.Trigger>
             </Navbar.Item>
             <Dropdown.Menu
-             aria-label="EDDY Girls"
+             aria-label="sale"
              css={{
               $$dropdownMenuWidth: "340px",
-              $$dropdownItemHeight: "70px",
+              $$dropdownItemHeight: "40px",
               "& .nextui-dropdown-item": {
                 py: "$4",
               // dropdown item title
@@ -452,9 +452,6 @@ const AppBar = () => {
             >
               <Dropdown.Item key="profile" css={{ height: "$18" }}>
                 <Text b color="inherit" css={{ d: "flex" }}>
-                  Signed in as
-                </Text>
-                <Text b color="inherit" css={{ d: "flex" }}>
                   johnelder@example.com
                 </Text>
               </Dropdown.Item>
@@ -467,7 +464,10 @@ const AppBar = () => {
               </Dropdown.Item>
               <Dropdown.Item key="system">Address book</Dropdown.Item>
               <Dropdown.Item key="configurations">Setting</Dropdown.Item>
-              <Dropdown.Item key="help_and_feedback" withDivider>
+              <Dropdown.Item key="create_an_account" withDivider>
+                 Create new account
+              </Dropdown.Item>
+              <Dropdown.Item key="help_and_feedback" >
                 Help & Feedback
               </Dropdown.Item>
               <Dropdown.Item key="logout" withDivider color="error">

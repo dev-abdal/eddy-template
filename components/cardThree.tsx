@@ -8,7 +8,7 @@ const cardThree = () => {
       <Col>
         <Text size={12} weight="bold" transform="uppercase" 
         // color="#ffffffAA"
-        color='yellow '
+        color='warning'
         >
           Girls
         </Text>
@@ -38,7 +38,7 @@ const cardThree = () => {
     >
       <Row>
         <Col>
-          <Text b color="#000000" size={16}>
+          <Text b color="#000000" size={24}>
             $19.99
           </Text>
           <Text color="warning" size={13} css={{
@@ -56,7 +56,7 @@ const cardThree = () => {
                 weight="bold"
                 transform="uppercase"
               >
-                Buy Now
+                Add to Cart
               </Text>
             </Button>
           </Row>

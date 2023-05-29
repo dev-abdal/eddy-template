@@ -35,7 +35,7 @@ const BoysImageCard = () => {
     >
       <Row>
         <Col>
-          <Text b color="#00000" size={16}>
+          <Text b color="#00000" size={24}>
            $14.99
           </Text>
           <Text color="#00000" size={13}  >
@@ -51,7 +51,7 @@ const BoysImageCard = () => {
                 weight="bold"
                 transform="uppercase"
               >
-                Buy Now
+                Add to Cart
               </Text>
             </Button>
           </Row>
