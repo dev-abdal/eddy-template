@@ -279,11 +279,6 @@ const AppBar = () => {
                 View all Girls
               </Dropdown.Item>
              
-              <Dropdown.Item
-              key="viewallboys"
-              >
-                View All Boys
-              </Dropdown.Item>
             </Dropdown.Menu>
             </Dropdown>
 
@@ -478,15 +473,15 @@ const AppBar = () => {
         </Navbar.Content>
        
         <Navbar.Collapse>
-          {collapseItems.map((item, index) => (
+           {collapseItems.map((item, index) => (
             <Navbar.CollapseItem
               key={item}
               activeColor="secondary"
-              // css={{
-              //   color: index === collapseItems.length - 1 ? "$error" : "",
-              // }}
-              // isActive={index === 1}
-            >
+            //   css={{
+            //     color: index === collapseItems.length - 1 ? "$error" : "",
+            //   }}
+            //   isActive={index === 1}
+              > 
               <Link
                 color="inherit"
                 css={{
