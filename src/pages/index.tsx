@@ -7,6 +7,7 @@ import MenCard from "../../components/menCard"
 import styles from "../styles/Home.module.css"
 import BoysCard from "../../components/boysCard"
 import GirlsCard from "../../components/girlsCard"
+import FooterBody from '../../components/footer'
 export default function index() {
     return (
     <>
@@ -45,6 +46,10 @@ export default function index() {
    {/* Girls Home Cards  */}
     
      <GirlsCard />
+
+    {/* Footer */}
+     
+      <FooterBody />
 
 </main>
 </>
