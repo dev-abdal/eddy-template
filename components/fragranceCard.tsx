@@ -1,7 +1,7 @@
 import React from 'react'
     import { Card, Col, Row, Button, Text } from "@nextui-org/react";
 
-const CardTwo = () => {
+const Fragrance = () => {
   return (
   <Card  isPressable  css={{ w: "100%", h: "500px"}}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
@@ -9,20 +9,20 @@ const CardTwo = () => {
         <Text  size={12} weight="bold" transform="uppercase" color="warning"
         css={{letterSpacing:2 }}
         >
-        Women
+        Fragrance
         </Text>
         <Text h3 color="secondary">
-        Unstitch
+        100ml Fragrance
         </Text>
       </Col>
     </Card.Header>
     <Card.Body css={{ p: 0 }}>
       <Card.Image
-        src="https://assets0.mirraw.com/images/7538058/MONSOON-2851_4_zoom.jpg?1573191332"
+        src="https://img.alicdn.com/imgextra/i2/6000000000503/O1CN01UKUVxm1FaPoy2mx8D_!!6000000000503-0-tbvideo.jpg"
         width="100%"
         height="100%"
         objectFit="cover"
-        alt="Card example background"
+        alt=""
       />
     </Card.Body>
     <Card.Footer
@@ -38,7 +38,7 @@ const CardTwo = () => {
       <Row>
         <Col>
           <Text b color="#000000" size={24}>
-            $19.99
+            $100
           </Text>
           <Text color="#00000" size={13}>
             In Stock
@@ -65,4 +65,4 @@ const CardTwo = () => {
   
 }
 
-export default CardTwo
+export default Fragrance

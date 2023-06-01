@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, Col, Row, Button, Text } from '@nextui-org/react';
 
-const cardThree = () => {
+const CardThree = () => {
   return (
   <Card isPressable  css={{ w: "100%%", h: "500px"}}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
@@ -14,13 +14,13 @@ const cardThree = () => {
           Girls
         </Text>
         <Text h3 color="secondary">
-         Demo
+        SAYFUT
         </Text>
       </Col>
     </Card.Header>
     <Card.Body css={{ p: 0 }}>
       <Card.Image
-        src="https://nextui.org/images/card-example-5.jpeg"
+        src="https://i5.walmartimages.com/asr/548ffce9-2384-42a2-882e-438502145429_1.8be7619dae47bf2f1913e3ac09cdd858.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
         width="100%"
         height="100%"
         objectFit="cover"
@@ -42,7 +42,8 @@ const cardThree = () => {
           <Text b color="#000000" size={24}>
             $19.99
           </Text>
-          <Text color="warning" size={13} css={{
+          <Text color="warning"  weight='bold' size={13} css={{
+            letterSpacing:'$wide',
             textTransform:'capitalize'
           }}>
             *out of stock
@@ -69,4 +70,4 @@ const cardThree = () => {
   
 }
 
-export default cardThree
+export default CardThree

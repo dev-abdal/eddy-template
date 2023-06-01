@@ -1,22 +1,23 @@
 import React from 'react'
-import { Grid,Button,Input,Text} from '@nextui-org/react'
-import BodyCard from './mainBodyCard'
-import CardThree from './cardThree'
-import Image from 'next/image'
+import { Grid,Button,Input,Text, } from '@nextui-org/react'
+import Fragrance from './fragranceCard'
 
- const GirlsCard = () => {
 
+ const FragranceCardGrid = () => {
   return (
     <>
     {/* Arrival Button */}
 
   <Grid.Container gap={2} justify='space-between'>
   <Grid xs={4} sm={5}>
+    {/* <Button flat auto color="secondary" >
+    New Arirvals
+  </Button> */}
   <Text weight='bold' color='secondary' css={{letterSpacing:2, backgroundColor:'#EADCF8', p:7 , borderRadius:9, cursor:'context-menu'}} >
-     Girls
+     Fragrance
     </Text>
-  </Grid>
-  <Grid>
+    </Grid>
+    <Grid>
       <Button
       auto flat color='secondary'
       icon={
@@ -34,21 +35,38 @@ import Image from 'next/image'
 
   <Grid.Container gap={2} justify='center'>
     <Grid xs={11} sm={4} md={3} lg={3} xl={3}>
-        <CardThree />
+         <Fragrance />
+
     </Grid>
     <Grid xs={11} sm={4} md={3} lg={3} xl={3}>
-        <CardThree />
+        < Fragrance/>
     </Grid>
     <Grid xs={11} sm={4} md={3} lg={3} xl={3}>
-        <CardThree />
+        < Fragrance/>
     </Grid>
     <Grid xs={11} sm={4} md={3} lg={3} xl={3}>
-        <CardThree />
+        < Fragrance/>
     </Grid>
-   
+    
   </Grid.Container>
-  
+  <Grid.Container justify='center' css={{ mt:10 }} >
+    <Grid>
+    <Input
+     width='300px'
+     placeholder="Subcribe for leatest product" 
+     type='email'
+     contentRight={
+      <Button auto color='gradient'>
+       <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+           <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+           <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
+        </svg>
+      </Button>
+     }
+     />;
+    </Grid>
+  </Grid.Container>
   </>
   )
 }
-export default GirlsCard
+export default FragranceCardGrid

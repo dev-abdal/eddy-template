@@ -1,7 +1,10 @@
 import React from 'react'
 import { Grid,Button,Link,Text, } from '@nextui-org/react'
 import BodyCard from './mainBodyCard'
-import CartIcon from './cartIcon'
+import CardThree from './cardThree'
+import BoysImageCard from './boysimagecard'
+import CardTwo from './card2'
+
  const BoysCard = () => {
   return (
     <>
@@ -34,16 +37,17 @@ import CartIcon from './cartIcon'
 
   <Grid.Container gap={2} justify='center'>
     <Grid xs={11} sm={4} md={3} lg={3} xl={3}>
-        <BodyCard />
+         <CardThree />
+
     </Grid>
     <Grid xs={11} sm={4} md={3} lg={3} xl={3}>
         < BodyCard/>
     </Grid>
     <Grid xs={11} sm={4} md={3} lg={3} xl={3}>
-        < BodyCard/>
+        < BoysImageCard/>
     </Grid>
     <Grid xs={11} sm={4} md={3} lg={3} xl={3}>
-        < BodyCard/>
+        < CardTwo/>
     </Grid>
     
   </Grid.Container>

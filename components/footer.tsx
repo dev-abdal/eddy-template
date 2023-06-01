@@ -8,6 +8,7 @@ import FooterFollowButton from './footerFollowButton'
 
 const FooterBody = () => {
   return (
+    
     <div
      style={{
       backgroundColor:'#481878',

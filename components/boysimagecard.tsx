@@ -9,16 +9,16 @@ const BoysImageCard = () => {
         <Text size={12} weight="bold" transform="uppercase" color="warning"
         css={{letterSpacing:2}}
         >
-          New
+          Boys
         </Text>
-        <Text h3 color="secondary">
-        Mens Cream Sherwani
+        <Text h3 color="secondary" css={{  letterSpacing:'2'  }}>
+        Baseball T-shirt
         </Text>
       </Col>
     </Card.Header>
     <Card.Body css={{ p: 0 }}>
       <Card.Image
-        src='https://m.media-amazon.com/images/I/71qexXcSUzL._AC_UL320_.jpg'
+        src='https://i.etsystatic.com/9962093/r/il/89b58c/2940258589/il_1588xN.2940258589_bw2v.jpg'
         width="100%"
         height="100%"
         objectFit="contain"

@@ -8,6 +8,7 @@ import styles from "../styles/Home.module.css"
 import BoysCard from "../../components/boysCard"
 import GirlsCard from "../../components/girlsCard"
 import FooterBody from "../../components/footer"
+import FragranceCardGrid from '../../components/fragranceCardGrid'
 export default function index() {
     return (
     <>
@@ -46,6 +47,10 @@ export default function index() {
    {/* Girls Home Cards  */}
     
      <GirlsCard />
+
+     {/* Fragrance Home card */}
+
+     <FragranceCardGrid />
 
     {/* Footer */}
      
