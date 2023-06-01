@@ -315,11 +315,6 @@ const AppBar = () => {
              }}
             >
               <Dropdown.Item
-                key="tops"
-              >
-                Tops
-              </Dropdown.Item>
-              <Dropdown.Item
               key="perfumes"
               >
               Perfumes
